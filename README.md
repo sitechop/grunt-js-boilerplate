@@ -25,12 +25,16 @@ This task will start the grunt server and watch all your files for changes. You 
 
 Javascripts are only concatinated since Uglify can be very slow. 
 
-`grunt live`
+```
+grunt live
+```
 
 ## Installation
 Start by cloning the repo. Next you'll want to open the `package.json` file and edit the details with your own. Afterwards run the following command to install everything.
 
-`npm install`
+```
+npm install
+```
 
 ### Adding Javascripts
 Since the order of javascripts can make your site break, additional script files are added in the `gruntfile.js`. Simple add them to the arrays in both the `concat` and `uglify` blocks.
